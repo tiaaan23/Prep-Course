@@ -1,13 +1,13 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "Sebas Pallares Dussan";
+const nuevaString = "Sebas Pallares Dussan 8 de Noviembre";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 6;
 
 // Crea una variable booleana:
-const nuevoBool = true; false;
+const nuevoBool = true; 
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -61,10 +61,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if x === y;
-  return true;
-  else 
-  return false;
+  
 }
 
 function tienenMismaLongitud(str1, str2) {
