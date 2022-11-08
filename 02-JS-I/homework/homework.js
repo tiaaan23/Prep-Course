@@ -157,10 +157,11 @@ function redondearHaciaArriba(num) {
   return Resultado;
 }
 
-function numeroRandom(min, max) {
+function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.floor((Math.random() * (max - min + 1)) + min);
+ var Resultado = Math.random()*1
+ return Resultado;
 }
 
 function esPositivo(numero) {
