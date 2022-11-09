@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "Sebas Pallares Dussan 8 de Noviembre";
+const nuevaString = "Sebas Pallares Dussan";
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 6;
@@ -169,7 +169,15 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
+  if (numero > 0){
+    return "Es positivo";
+  }
+  if (numero < 0){
+    return "Es negativo"
+  }
+  if (numero===0){
+    return false;
+  }
 }
 
 function agregarSimboloExclamacion(str) {
